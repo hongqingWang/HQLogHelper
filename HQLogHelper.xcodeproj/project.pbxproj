@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B3367C1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3367B1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.m */; };
 		18CD203A1E02CCD70053693A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD20391E02CCD70053693A /* main.m */; };
 		18CD203D1E02CCD70053693A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD203C1E02CCD70053693A /* AppDelegate.m */; };
 		18CD20401E02CCD70053693A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD203F1E02CCD70053693A /* ViewController.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B3367A1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HQLogHelper.h"; sourceTree = "<group>"; };
+		18B3367B1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HQLogHelper.m"; sourceTree = "<group>"; };
 		18CD20351E02CCD70053693A /* HQLogHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQLogHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CD20391E02CCD70053693A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18CD203B1E02CCD70053693A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B336791F0BC3F9006528B2 /* HQLogHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18B3367A1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.h */,
+				18B3367B1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.m */,
+			);
+			path = HQLogHelper;
+			sourceTree = "<group>";
+		};
 		18CD202C1E02CCD70053693A = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +102,7 @@
 				18CD203C1E02CCD70053693A /* AppDelegate.m */,
 				18CD203E1E02CCD70053693A /* ViewController.h */,
 				18CD203F1E02CCD70053693A /* ViewController.m */,
+				18B336791F0BC3F9006528B2 /* HQLogHelper */,
 				18CD204F1E02CCFE0053693A /* AFNetworking */,
 				18CD20411E02CCD70053693A /* Main.storyboard */,
 				18CD20441E02CCD70053693A /* Assets.xcassets */,
@@ -211,6 +224,7 @@
 				18CD20661E02CCFE0053693A /* AFNetworkReachabilityManager.m in Sources */,
 				18CD206A1E02CCFE0053693A /* AFURLResponseSerialization.m in Sources */,
 				18CD20681E02CCFE0053693A /* AFURLConnectionOperation.m in Sources */,
+				18B3367C1F0BC3F9006528B2 /* NSDictionary+HQLogHelper.m in Sources */,
 				18CD20671E02CCFE0053693A /* AFSecurityPolicy.m in Sources */,
 				18CD20651E02CCFE0053693A /* AFHTTPSessionManager.m in Sources */,
 				18CD20691E02CCFE0053693A /* AFURLRequestSerialization.m in Sources */,
@@ -371,6 +385,7 @@
 				18CD204E1E02CCD70053693A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
